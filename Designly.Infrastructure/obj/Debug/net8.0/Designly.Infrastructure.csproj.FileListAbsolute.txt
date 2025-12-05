@@ -15,3 +15,4 @@ C:\Designly\Designly\Designly.Infrastructure\obj\Debug\net8.0\Designly.Infrastru
 C:\Designly\Designly\Designly.Infrastructure\obj\Debug\net8.0\refint\Designly.Infrastructure.dll
 C:\Designly\Designly\Designly.Infrastructure\obj\Debug\net8.0\Designly.Infrastructure.pdb
 C:\Designly\Designly\Designly.Infrastructure\obj\Debug\net8.0\ref\Designly.Infrastructure.dll
+C:\Designly\Designly\Designly.Infrastructure\obj\Debug\net8.0\Designly.Infrastructure.sourcelink.json

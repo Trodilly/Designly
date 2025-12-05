@@ -47,3 +47,4 @@ C:\Designly\Designly\Designly.API\bin\Debug\net8.0\Designly.Infrastructure.dll
 C:\Designly\Designly\Designly.API\bin\Debug\net8.0\Designly.Application.pdb
 C:\Designly\Designly\Designly.API\bin\Debug\net8.0\Designly.Infrastructure.pdb
 C:\Designly\Designly\Designly.API\bin\Debug\net8.0\Designly.Domain.pdb
+C:\Designly\Designly\Designly.API\obj\Debug\net8.0\Designly.API.sourcelink.json

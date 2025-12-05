@@ -13,3 +13,4 @@ C:\Designly\Designly\Designly.Application\obj\Debug\net8.0\Designly.Application.
 C:\Designly\Designly\Designly.Application\obj\Debug\net8.0\refint\Designly.Application.dll
 C:\Designly\Designly\Designly.Application\obj\Debug\net8.0\Designly.Application.pdb
 C:\Designly\Designly\Designly.Application\obj\Debug\net8.0\ref\Designly.Application.dll
+C:\Designly\Designly\Designly.Application\obj\Debug\net8.0\Designly.Application.sourcelink.json

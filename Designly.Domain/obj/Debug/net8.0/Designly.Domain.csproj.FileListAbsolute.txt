@@ -9,3 +9,4 @@ C:\Designly\Designly\Designly.Domain\obj\Debug\net8.0\Designly.Domain.dll
 C:\Designly\Designly\Designly.Domain\obj\Debug\net8.0\refint\Designly.Domain.dll
 C:\Designly\Designly\Designly.Domain\obj\Debug\net8.0\Designly.Domain.pdb
 C:\Designly\Designly\Designly.Domain\obj\Debug\net8.0\ref\Designly.Domain.dll
+C:\Designly\Designly\Designly.Domain\obj\Debug\net8.0\Designly.Domain.sourcelink.json
