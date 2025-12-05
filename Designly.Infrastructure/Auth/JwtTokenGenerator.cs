@@ -17,6 +17,11 @@ public class JwtTokenGenerator : ITokenGenerator
         _configuration = configuration;
     }
 
+    /// <summary>
+    /// Generates a JWT token for the specified user.
+    /// </summary>
+    /// <param name="user">The user for whom the token is generated.</param>
+    /// <returns>A signed JWT token string.</returns>
     public string GenerateToken(User user)
     {
         var jwtSettings = _configuration.GetSection("Jwt");

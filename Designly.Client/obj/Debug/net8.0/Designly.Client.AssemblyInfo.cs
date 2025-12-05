@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Designly.Client")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4d21611bf27132ff026b6000debbe45e825fc3ad")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+603ea135e82704957655b545f54628fdafcf7e65")]
 [assembly: System.Reflection.AssemblyProductAttribute("Designly.Client")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Designly.Client")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

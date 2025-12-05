@@ -33,15 +33,32 @@ public class InMemoryEmployeeRepository : IEmployeeRepository
         }
     };
 
+    /// <summary>
+    /// Retrieves all employees from the in-memory store.
+    /// </summary>
+    /// <returns>A collection of employees.</returns>
     public IEnumerable<Employee> GetAll() => _employees;
 
+    /// <summary>
+    /// Retrieves an employee by their unique identifier.
+    /// </summary>
+    /// <param name="id">The unique identifier of the employee.</param>
+    /// <returns>The employee if found, otherwise null.</returns>
     public Employee? GetById(Guid id) => _employees.FirstOrDefault(e => e.Id == id);
 
+    /// <summary>
+    /// Adds a new employee to the in-memory store.
+    /// </summary>
+    /// <param name="employee">The employee to add.</param>
     public void Add(Employee employee)
     {
         _employees.Add(employee);
     }
 
+    /// <summary>
+    /// Updates an existing employee in the in-memory store.
+    /// </summary>
+    /// <param name="employee">The employee with updated information.</param>
     public void Update(Employee employee)
     {
         var existing = GetById(employee.Id);
@@ -54,6 +71,10 @@ public class InMemoryEmployeeRepository : IEmployeeRepository
         }
     }
 
+    /// <summary>
+    /// Deletes an employee from the in-memory store by their unique identifier.
+    /// </summary>
+    /// <param name="id">The unique identifier of the employee to delete.</param>
     public void Delete(Guid id)
     {
         var employee = GetById(id);

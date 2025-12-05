@@ -128,3 +128,4 @@ C:\Designly\Designly\Designly.Tests\obj\Debug\net8.0\refint\Designly.Tests.dll
 C:\Designly\Designly\Designly.Tests\obj\Debug\net8.0\Designly.Tests.pdb
 C:\Designly\Designly\Designly.Tests\obj\Debug\net8.0\Designly.Tests.genruntimeconfig.cache
 C:\Designly\Designly\Designly.Tests\obj\Debug\net8.0\ref\Designly.Tests.dll
+C:\Designly\Designly\Designly.Tests\obj\Debug\net8.0\Designly.Tests.sourcelink.json

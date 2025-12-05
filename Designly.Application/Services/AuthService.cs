@@ -14,6 +14,11 @@ public class AuthService : IAuthService
         _tokenGenerator = tokenGenerator;
     }
 
+    /// <summary>
+    /// Authenticates a user based on the provided credentials.
+    /// </summary>
+    /// <param name="request">The login request containing username and password.</param>
+    /// <returns>A login response with a token if successful, otherwise null.</returns>
     public LoginResponse? Login(LoginRequest request)
     {
         var user = _userRepository.GetByUsername(request.Username);
