@@ -28,3 +28,4 @@ C:\Designly\Designly\Designly.Client\obj\Debug\net8.0\refint\Designly.Client.dll
 C:\Designly\Designly\Designly.Client\obj\Debug\net8.0\Designly.Client.pdb
 C:\Designly\Designly\Designly.Client\obj\Debug\net8.0\Designly.Client.genruntimeconfig.cache
 C:\Designly\Designly\Designly.Client\obj\Debug\net8.0\ref\Designly.Client.dll
+C:\Designly\Designly\Designly.Client\obj\Debug\net8.0\Designly.Client.sourcelink.json
