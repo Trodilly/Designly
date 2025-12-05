@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Designly.Client.props" />
+</Project>

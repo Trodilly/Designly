@@ -1,0 +1,51 @@
+@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Login";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Login</h1>
+</div>
+
+<div class="row justify-content-center">
+    <div class="col-md-4">
+        @if (!string.IsNullOrEmpty(Model.ErrorMessage))
+        {
+            <div class="alert alert-danger" role="alert">
+                @Model.ErrorMessage
+            </div>
+        }
+
+        @if (!string.IsNullOrEmpty(Model.Token))
+        {
+            <div class="alert alert-success" role="alert">
+                <h4 class="alert-heading">Login Successful!</h4>
+                <p>Your JWT Token:</p>
+                <code class="text-break">@Model.Token</code>
+            </div>
+        }
+        else
+        {
+            <form method="post">
+                <div class="form-group mb-3">
+                    <label asp-for="Input.Username" class="control-label"></label>
+                    <input asp-for="Input.Username" class="form-control" />
+                    <span asp-validation-for="Input.Username" class="text-danger"></span>
+                </div>
+                <div class="form-group mb-3">
+                    <label asp-for="Input.Password" class="control-label"></label>
+                    <input asp-for="Input.Password" class="form-control" />
+                    <span asp-validation-for="Input.Password" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <button type="submit" class="btn btn-primary w-100">Log in</button>
+                </div>
+            </form>
+        }
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+#
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Designly.API", "Designly.API\Designly.API.csproj", "{6A241C9A-0410-486A-9C08-B0CE696B5C28}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Designly.Client", "Designly.Client\Designly.Client.csproj", "{DC3031FD-0F67-4040-A50F-2595B234B725}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Designly.Application", "Designly.Application\Designly.Application.csproj", "{3BAF2019-66A6-41AD-9EE8-6C9A5367D6B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Designly.Infrastructure", "Designly.Infrastructure\Designly.Infrastructure.csproj", "{9D99B803-DD53-48DE-ACFB-0C439D6AC123}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Designly.Tests", "Designly.Tests\Designly.Tests.csproj", "{19D980CF-34D4-4FCE-B589-5CBDD895A19E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Designly.Domain", "Designly.Domain\Designly.Domain.csproj", "{8BDEC693-2BE4-4199-AA87-867986DAF3F2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6A241C9A-0410-486A-9C08-B0CE696B5C28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A241C9A-0410-486A-9C08-B0CE696B5C28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A241C9A-0410-486A-9C08-B0CE696B5C28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A241C9A-0410-486A-9C08-B0CE696B5C28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC3031FD-0F67-4040-A50F-2595B234B725}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC3031FD-0F67-4040-A50F-2595B234B725}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC3031FD-0F67-4040-A50F-2595B234B725}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC3031FD-0F67-4040-A50F-2595B234B725}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BAF2019-66A6-41AD-9EE8-6C9A5367D6B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BAF2019-66A6-41AD-9EE8-6C9A5367D6B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BAF2019-66A6-41AD-9EE8-6C9A5367D6B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BAF2019-66A6-41AD-9EE8-6C9A5367D6B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D99B803-DD53-48DE-ACFB-0C439D6AC123}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D99B803-DD53-48DE-ACFB-0C439D6AC123}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D99B803-DD53-48DE-ACFB-0C439D6AC123}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D99B803-DD53-48DE-ACFB-0C439D6AC123}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19D980CF-34D4-4FCE-B589-5CBDD895A19E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19D980CF-34D4-4FCE-B589-5CBDD895A19E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19D980CF-34D4-4FCE-B589-5CBDD895A19E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19D980CF-34D4-4FCE-B589-5CBDD895A19E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BDEC693-2BE4-4199-AA87-867986DAF3F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BDEC693-2BE4-4199-AA87-867986DAF3F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BDEC693-2BE4-4199-AA87-867986DAF3F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BDEC693-2BE4-4199-AA87-867986DAF3F2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

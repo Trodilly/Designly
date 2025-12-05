@@ -1,0 +1,15 @@
+C:\Designly\Designly\Designly.Application\bin\Debug\net8.0\Designly.Application.deps.json
+C:\Designly\Designly\Designly.Application\bin\Debug\net8.0\Designly.Application.dll
+C:\Designly\Designly\Designly.Application\bin\Debug\net8.0\Designly.Application.pdb
+C:\Designly\Designly\Designly.Application\bin\Debug\net8.0\Designly.Domain.dll
+C:\Designly\Designly\Designly.Application\bin\Debug\net8.0\Designly.Domain.pdb
+C:\Designly\Designly\Designly.Application\obj\Debug\net8.0\Designly.Application.csproj.AssemblyReference.cache
+C:\Designly\Designly\Designly.Application\obj\Debug\net8.0\Designly.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Designly\Designly\Designly.Application\obj\Debug\net8.0\Designly.Application.AssemblyInfoInputs.cache
+C:\Designly\Designly\Designly.Application\obj\Debug\net8.0\Designly.Application.AssemblyInfo.cs
+C:\Designly\Designly\Designly.Application\obj\Debug\net8.0\Designly.Application.csproj.CoreCompileInputs.cache
+C:\Designly\Designly\Designly.Application\obj\Debug\net8.0\Designly.81CCAA7A.Up2Date
+C:\Designly\Designly\Designly.Application\obj\Debug\net8.0\Designly.Application.dll
+C:\Designly\Designly\Designly.Application\obj\Debug\net8.0\refint\Designly.Application.dll
+C:\Designly\Designly\Designly.Application\obj\Debug\net8.0\Designly.Application.pdb
+C:\Designly\Designly\Designly.Application\obj\Debug\net8.0\ref\Designly.Application.dll
