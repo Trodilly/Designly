@@ -10,26 +10,26 @@ public class InMemoryEmployeeRepository : IEmployeeRepository
         new Employee
         {
             Id = Guid.NewGuid(),
-            Name = "John Doe",
+            Name = "Enrique Cedeno",
             Birthdate = new DateTime(1985, 5, 15),
             IdentityNumber = 123456789,
-            Email = "john.doe@example.com"
+            Email = "e.c@example.com"
         },
         new Employee
         {
             Id = Guid.NewGuid(),
-            Name = "Jane Smith",
+            Name = "Alvaro Baez",
             Birthdate = new DateTime(1990, 8, 22),
             IdentityNumber = 987654321,
-            Email = "jane.smith@example.com"
+            Email = "a.b@example.com"
         },
         new Employee
         {
             Id = Guid.NewGuid(),
-            Name = "Alice Johnson",
+            Name = "Maki Reynoso",
             Birthdate = new DateTime(1992, 11, 3),
             IdentityNumber = 456123789,
-            Email = "alice.johnson@example.com"
+            Email = "m.r@example.com"
         }
     };
 
