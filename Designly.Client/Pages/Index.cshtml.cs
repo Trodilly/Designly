@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace Designly.Client.Pages;
 
-public class IndexModel : PageModel
+    public class IndexModel : PageModel
 {
     private readonly ILogger<IndexModel> _logger;
     private readonly IHttpClientFactory _httpClientFactory;
@@ -20,8 +20,8 @@ public class IndexModel : PageModel
     [BindProperty]
     public InputModel Input { get; set; } = new();
 
-    public string? Token { get; set; }
     public string? ErrorMessage { get; set; }
+    public bool IsLoggedIn { get; set; } = false; // New property
 
     public class InputModel
     {
@@ -35,8 +35,23 @@ public class IndexModel : PageModel
 
     public void OnGet()
     {
-    }
+        // Check for redirect error messages
+        if (TempData["ErrorMessage"] is string error)
+        {
+            ErrorMessage = error;
+        }
 
+        // Check if a token exists, but don't consume TempData for further use
+        if (TempData.Peek("JwtToken") is string token && !string.IsNullOrEmpty(token))
+        {
+            IsLoggedIn = true;
+            TempData.Keep("JwtToken"); // Ensure token is available for Users page if navigated directly
+        }
+        else
+        {
+            IsLoggedIn = false;
+        }
+    }
     public async Task<IActionResult> OnPostAsync()
     {
         if (!ModelState.IsValid)

@@ -23,7 +23,8 @@ public class UsersModel : PageModel
         // Retrieve the token from TempData
         if (TempData["JwtToken"] is not string token)
         {
-            // If no token, redirect back to login
+            // If no token, redirect back to login with a message
+            TempData["ErrorMessage"] = "You must be logged in to access the Users page.";
             return RedirectToPage("/Index");
         }
 

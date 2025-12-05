@@ -17,12 +17,11 @@
             </div>
         }
 
-        @if (!string.IsNullOrEmpty(Model.Token))
+        @if (Model.IsLoggedIn)
         {
-            <div class="alert alert-success" role="alert">
-                <h4 class="alert-heading">Login Successful!</h4>
-                <p>Your JWT Token:</p>
-                <code class="text-break">@Model.Token</code>
+            <div class="alert alert-info" role="alert">
+                <h4 class="alert-heading">You are already logged in!</h4>
+                <p>You can <a asp-page="/Users">view your profile</a> or <a asp-page="/Logout">logout</a>.</p>
             </div>
         }
         else
