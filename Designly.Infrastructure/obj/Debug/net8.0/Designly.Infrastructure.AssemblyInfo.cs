@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Designly.Infrastructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+603ea135e82704957655b545f54628fdafcf7e65")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a592aa09949fbb090538a46ef1c2b45f52f06b2c")]
 [assembly: System.Reflection.AssemblyProductAttribute("Designly.Infrastructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Designly.Infrastructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

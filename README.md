@@ -80,6 +80,22 @@ To run the application, you need to start both the API and the Client projects.
     ```
     The client will typically run on `https://localhost:7260` (check terminal output for exact URL).
 
+### Docker Usage
+
+Alternatively, you can run the entire solution using Docker Compose.
+
+1.  **Build and run the containers:**
+    ```bash
+    docker-compose up --build
+    ```
+
+2.  **Access the application:**
+    *   **API:** `http://localhost:5187`
+        *   Swagger: `http://localhost:5187/swagger`
+    *   **Client:** `http://localhost:5288`
+
+    *Note: The Docker configuration uses HTTP ports to simplify the setup.*
+
 ### Login Credentials
 
 Use the following mock credentials for testing:
@@ -89,7 +105,7 @@ Use the following mock credentials for testing:
 
 ### Client Navigation
 
-*   **Login Page**: Navigate to the client's root URL (e.g., `https://localhost:7260/`).
+*   **Login Page**: Navigate to the client's root URL (e.g., `https://localhost:7260/` or `http://localhost:5288/` if using Docker).
 *   **Users List**: After successful login, you will be redirected to `/Users` to see the list of users fetched from the protected API.
 *   **Swagger API Link**: Available in the footer for direct access to API documentation.
 
@@ -102,3 +118,65 @@ To run the unit tests:
     ```bash
     dotnet test Designly.Tests/Designly.Tests.csproj
     ```
+
+## Contribution Guidelines
+
+We welcome contributions to Designly! Whether you're fixing a bug, adding a feature, or improving documentation, your help is appreciated.
+
+### How to Contribute
+
+1.  **Fork the Repository:**
+    *   Click the "Fork" button on the top right of the repository page.
+    *   This creates a copy of the project in your own GitHub account.
+
+2.  **Clone Your Fork:**
+    ```bash
+    git clone https://github.com/your-username/Designly.git
+    cd Designly
+    ```
+
+3.  **Create a Branch:**
+    *   Create a new branch for your specific change. Use a descriptive name.
+    ```bash
+    git checkout -b feature/your-feature-name
+    # or
+    git checkout -b bugfix/issue-description
+    ```
+
+4.  **Make Changes:**
+    *   Implement your feature or fix.
+    *   Follow the existing code style and structure.
+    *   Ensure the code compiles and runs successfully.
+
+5.  **Run Tests:**
+    *   Before committing, run the unit tests to ensure no regressions.
+    ```bash
+    dotnet test Designly.Tests/Designly.Tests.csproj
+    ```
+    *   If you added new functionality, please add corresponding unit tests in `Designly.Tests`.
+
+6.  **Commit Your Changes:**
+    *   Write clear and concise commit messages.
+    ```bash
+    git add .
+    git commit -m "Description of the changes made"
+    ```
+
+7.  **Push to Your Fork:**
+    ```bash
+    git push origin feature/your-feature-name
+    ```
+
+8.  **Submit a Pull Request (PR):**
+    *   Go to the original repository on GitHub.
+    *   You should see a prompt to create a Pull Request from your new branch.
+    *   Click "Compare & pull request".
+    *   Provide a clear title and description of your changes.
+    *   Submit the PR for review.
+
+### Coding Standards
+
+*   **Clean Architecture:** Respect the layer dependencies (Domain <- Application <- Infrastructure/API).
+*   **Naming Conventions:** Follow standard C# naming conventions (PascalCase for classes/methods, camelCase for local variables).
+*   **Testing:** We aim for high test coverage. Please include tests for logic changes.
+

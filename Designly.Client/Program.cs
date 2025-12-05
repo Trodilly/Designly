@@ -4,7 +4,8 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddRazorPages();
 builder.Services.AddHttpClient("DesignlyAPI", client =>
 {
-    client.BaseAddress = new Uri("https://localhost:7176"); // Adjust port if necessary matching the API launchSettings
+    var apiBaseUrl = builder.Configuration["ApiBaseUrl"] ?? "https://localhost:7176";
+    client.BaseAddress = new Uri(apiBaseUrl); 
 });
 
 var app = builder.Build();
